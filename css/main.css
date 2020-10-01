@@ -1,0 +1,245 @@
+/*****BASE STYLES*****/
+
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*****GRID*****/
+.full-width {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/*****HEADER*****/
+
+header {
+	background-image: url(../img/hero-image.png);
+	background-size: cover;
+	height: 800px;
+	margin-bottom: 10px;
+}
+
+header h1 {
+	color: #bdbf09;
+	font-family: 'Roboto Slab';
+	font-size: 60px;
+	padding-top: 400px;
+	text-align: center;
+	margin: 0;
+}
+	
+header h2 {
+	color: #095156;
+	font-family: 'Roboto Regular';
+	font-size: 48px;
+	padding: 4px 0px 0px 38px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+ul {
+    list-style-type:none;  
+}
+
+li {
+    display:inline-block;
+    padding-right: 2px;   
+}
+
+nav {
+	float: right;
+	padding-right: 58px;
+}
+
+nav a {
+	color: #bdbf09;
+}
+
+/*****BODY*****/
+
+#work .full-width {
+	overflow: auto;
+	margin: 0, auto;
+}
+
+#work .half-width {
+	clear: none;
+	width: 600px;
+	margin-left: 50px;	
+}
+
+#about h2, #contact h2, #work h2{
+	text-align: center;
+	font-family: 'Roboto Slab';
+	font-size: 36px;
+	padding-bottom: 50px;
+	color: white;
+}
+
+#work  h2 {
+	color: #095156;	
+}
+
+span {
+	font-family: 'Roboto Regular';
+	font-weight: normal;
+	font-size: 24px;
+	color: #095156;	
+}
+
+ img {
+	border: 1px solid #b7b7b7;
+	clear: both;
+	width: 550px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+#rogue h3, #jubilee h3, #recipe h3 {
+	font-family: 'Roboto Bold';
+	color: #095156;	
+	font-size: 24px;
+	margin: 0;	
+	padding-top: 3px;
+}
+
+#rogue p, #jubilee p, #recipe p{
+	width: 550px;
+	padding-top: 20px;
+	padding-bottom: 80px;
+	margin: 10px 25px 0px 0px;
+	font-family: 'Roboto Regular';
+	font-weight: normal;
+	color: #095156;	
+	line-height: 23px;
+	text-align: left;
+	font-size: 24px;	
+}
+
+#recipe {
+	padding-top: 78px;
+}
+ 
+
+/*****ABOUT*****/
+
+#about .full-width {
+	overflow: auto;
+	margin: 0, auto;	
+}
+
+#about .half-width {
+	clear: none;
+	margin-left: 50px;	
+}
+
+ img {
+	border: 1px solid #b7b7b7;
+	clear: both; 
+	width: 550px;	
+}
+
+#about {
+	background-color: #087e8b;
+	height: 650px;
+}
+
+ #about h3, p {
+	font-family: 'Roboto Regular';
+	font-size: 24px;
+	font-weight: normal;
+	color: white;	
+	padding-bottom: 10px;	
+}
+
+
+
+/*****FOOTER*****/
+
+#contact {
+	background-color: #095156;
+	
+}
+
+#contact .full-width  {
+	overflow: auto;	
+	margin: 0, auto;	
+}
+
+#contact .third-width {
+	overflow: auto;	
+	padding-left: 50px;
+}
+
+#contact  h4{
+	color: white;
+	font-family: 'Roboto Bold';
+	text-align: center;
+	font-size: 24px;		
+}
+
+#contact p, h6, a {
+	color: white;
+	font-family: 'Roboto Regular';
+	font-weight: normal;
+	text-align: center;
+	font-size: 24px;
+	text-decoration: none;		
+}
+
+#social a {
+	display: inline-block;	
+}
+
+#social img {
+	width: 50px;
+	background-color: #095156;
+	border: none;
+	padding: 10px;
+}
+
+h6 {
+	font-size: 18px;
+	padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
